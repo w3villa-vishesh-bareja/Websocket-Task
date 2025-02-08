@@ -1,4 +1,3 @@
-// App.js
 
 import React, { useState, useEffect } from 'react';
 import { io } from 'socket.io-client';
@@ -38,7 +37,6 @@ const App = () => {
       setMessage('');
     }
   };
-
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-6">

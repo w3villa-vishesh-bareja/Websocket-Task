@@ -18,7 +18,6 @@ const io = new Server(server, {
   }
 });
 
-
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 let chatHistory = [];
